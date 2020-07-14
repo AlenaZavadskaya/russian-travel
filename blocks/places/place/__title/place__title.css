@@ -1,0 +1,34 @@
+.place__title {
+	max-width: 460px;
+	font-weight: 900;
+	font-size: 72px;
+	min-inline-size: 76px;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+@media screen and (max-width: 1024px) {
+	.place__title {
+		max-width: 440px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.place__title {
+		max-width: 95%;
+		font-size: 42px;
+		min-inline-size: 46px;
+		height: 92px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.place__title {
+		max-width: 288px;
+		font-size: 32px;
+		min-inline-size: 35px;
+		padding: 0 16px;
+	}
+}

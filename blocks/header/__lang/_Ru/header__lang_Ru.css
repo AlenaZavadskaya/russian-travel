@@ -1,0 +1,13 @@
+.header__lang_Ru {
+	width: 30px;
+	min-height: 28px;
+	text-decoration-line: underline;
+	margin-right: 18px;
+}
+
+@media screen and (max-width: 320px) {
+	.header__lang_Ru {
+		max-width: 22px;
+		min-height: 24px;
+	}
+}

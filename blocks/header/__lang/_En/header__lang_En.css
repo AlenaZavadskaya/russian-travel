@@ -1,0 +1,11 @@
+.header__lang_En {
+	width: 29x;
+	min-height: 28px;
+}
+
+@media screen and (max-width: 320px) {
+	.header__lang_En {
+		max-width: 22px;
+		min-height: 24px;
+	}
+}

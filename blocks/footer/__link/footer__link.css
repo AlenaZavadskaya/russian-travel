@@ -1,0 +1,29 @@
+.footer__link {
+	max-width: 50px;
+	min-height: 18px;
+	font-size: 16px;
+	min-inline-size: 18px;
+	color: #FFFFFF;
+	list-style: none;
+	text-decoration: none;
+	margin-right: 18px;
+}
+
+.footer__link:last-of-type {
+	margin: 0;
+}
+
+.footer__link:hover {
+	transition: 0.3s linear;
+	opacity: .3;
+}
+
+@media screen and (max-width: 320px) {
+	.footer__link{
+		width:100%;
+		min-height: 18px;
+		font-size: 16px;
+	}
+}
+
+
