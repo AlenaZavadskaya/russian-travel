@@ -1,16 +1,16 @@
-.header__lang_ru {
+.header__lang_Ru {
 	width: 30px;
 	text-decoration-line: underline;
 	margin-right: 18px;
 }
 
-.header__lang_ru:hover {
+.header__lang_Ru:hover {
 	transition: 0.3s linear; 
 	opacity: .3; 
 }
 
 @media screen and (max-width: 320px) {
-	.header__lang_ru {
+	.header__lang_Ru {
 		max-width: 22px;
 	}
 }

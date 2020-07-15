@@ -1,5 +1,5 @@
-@import url(./_en/header__lang_en.css);
-@import url(./_ru/header__lang_ru.css);
+@import url(./_En/header__lang_En.css);
+@import url(./_Ru/header__lang_Ru.css);
 
 .header__lang {
    font-size: 24px;
