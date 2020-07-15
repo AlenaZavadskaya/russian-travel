@@ -1,5 +1,7 @@
 .header__lang_En {
 	max-width: 29x;
+	text-decoration: none;
+	color: #ffffff;
 }
 
 .header__lang_En:hover {
