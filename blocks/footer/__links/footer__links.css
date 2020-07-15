@@ -1,12 +1,25 @@
 .footer__links {
+	display: flex;
+	max-width: 600px;
+	padding: 0;
+	list-style: none;
 	margin: 0;
 }
 
+.footer__links:last-child {
+	margin-right: 0;
+}
+
+@media screen and (max-width: 468px) {
+	.footer__links{
+		display: unset;
+		margin-bottom: 48px;
+	}
+}
+
 @media screen and (max-width: 320px) {
-	.footer__links {
-		min-height: 294px;
-		display: flex;
-		flex-direction: column;
-		justify-content: space-around;
+	.footer__links{
+		display: unset;
+		margin-bottom: 48px;
 	}
 }

@@ -1,20 +1,20 @@
 .intro__text {
-	max-width: 720px;
+	max-width: 690px;
 	width: 100%;
 	font-size: 16px;
 	font-weight: normal;
-	min-inline-size: 26px;
+	line-height: 162%;
 	margin: 0 0 32px;
 }
 
 @media screen and (max-width: 768px) {
 	.intro__text {
-	min-height: 208px;
+		max-width: 720px;
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
 	.intro__text {
-	min-height: 90px;
+		max-width: 288px;
 	}
 }

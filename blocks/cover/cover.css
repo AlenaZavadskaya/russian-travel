@@ -3,24 +3,21 @@
 @import url(./__subtitle/cover__subtitle.css);
 
 .cover {
-	background-image: url(/images/cover-trains.jpg);
+	background-image: url(../../images/cover-trains.jpg);
 	background-size: cover;
 	background-position: center;
 	max-width: 1184px;
-	max-height: 740px;
 	margin: 0 auto 92px;
 }
 
 @media screen and (max-width: 1024px) {
 	.cover {
-		max-height: 640px;
 		width: 100%;
 	}
 }
 	
 @media screen and (max-width: 768px) {
 	.cover {
-		max-height: 480px;
 		width: 100%;
 		margin: 0 auto 88px;
 	}
@@ -28,7 +25,6 @@
 
 @media screen and (max-width: 320px) {
 	.cover {
-		max-height: 200px;
 		width: 100%;
 		margin: 0 auto 64px;
 	}

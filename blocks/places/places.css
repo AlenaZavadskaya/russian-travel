@@ -1,8 +1,8 @@
 @import url(./place/place.css);
 
 .places {
-	width: 77%;
-	margin: 0 50px 8px auto;
+	max-width: 984px;
+	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
@@ -11,7 +11,7 @@
 @media screen and (max-width: 1024px) {
 	.places {
 		margin: 0 48px 92px;
-		width: 91%;
+		max-width: 928px;
 	}
 }
 
@@ -19,7 +19,6 @@
 	.places {
 		margin: 0 24px 88px;
 		max-width: 720px;
-		width: 100%;
 	}
 }
 

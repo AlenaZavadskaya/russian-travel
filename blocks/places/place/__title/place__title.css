@@ -2,7 +2,7 @@
 	max-width: 460px;
 	font-weight: 900;
 	font-size: 72px;
-	min-inline-size: 76px;
+	line-height: 106%;
 	margin: 0;
 	display: flex;
 	flex-direction: column;
@@ -17,10 +17,9 @@
 
 @media screen and (max-width: 768px) {
 	.place__title {
-		max-width: 95%;
+		max-width: 340px;
 		font-size: 42px;
-		min-inline-size: 46px;
-		height: 92px;
+		line-height: 110%;
 	}
 }
 
@@ -28,7 +27,7 @@
 	.place__title {
 		max-width: 288px;
 		font-size: 32px;
-		min-inline-size: 35px;
+		line-height: 109%;
 		padding: 0 16px;
 	}
 }

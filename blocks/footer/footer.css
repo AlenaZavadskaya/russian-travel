@@ -3,23 +3,46 @@
 @import url(./__copyright/footer__copyright.css);
 
 .footer {
-	width: 92.5%;
-	min-height: 18px;
+	max-width: 1184px;
 	display: flex;
 	justify-content: space-between;
 	margin: 0 48px 24px;
 }
 
+@media screen and (max-width: 1024px) {
+	.footer {
+		max-width: 928px;
+	}
+}
+
 @media screen and (max-width: 768px) {
 	.footer {
+		max-width: 720px;
 		margin: 0 24px 24px;
+	}
+}
+
+@media screen and (max-width: 470px) {
+	.footer {
+		max-width: 186px;
+		margin: 0 118px 24px 16px;
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 340px) {
+	.footer {
+		max-width: 186px;
+		margin: 0 118px 24px 16px;
+		display: flex;
+		flex-direction: column;
 	}
 }
 
 @media screen and (max-width: 320px) {
 	.footer {
 		max-width: 186px;
-		min-height: 310px;
 		margin: 0 118px 24px 16px;
 		display: flex;
 		flex-direction: column;

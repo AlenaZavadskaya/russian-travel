@@ -13,7 +13,7 @@
 	gap: 48px 40px;
 	max-width: 984px;
 	width: 100%;
-	margin-bottom: 8px;
+	margin-bottom: 80px;
 }
 
 .place:last-of-type {
@@ -33,9 +33,10 @@
 	.place {
 		max-width: 720px;
 		width: 100%;
-		grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-		grid-template-rows: repeat(auto-fit, minmax(46px, 1fr));
+		grid-template-columns: repeat(auto-fill, 340px);
+		grid-template-rows: auto-fill(92px, 340px);
 		gap: 48px 28px;
+		margin-bottom: 72px;
 	}
 }
 
@@ -44,7 +45,8 @@
 		max-width: 320px;
 		width: 100%;
 		grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-		grid-template-rows: repeat(auto-fit, minmax(46px, 1fr));
+		grid-template-rows: repeat(auto-fit, minmax(35px, 1fr));
 		gap: 32px;
+		margin-bottom: 48px;
 	}
 }
