@@ -1,14 +1,14 @@
-.header__lang_En {
+.header__lang_en {
 	max-width: 29x;
 }
 
-.header__lang_En:hover {
+.header__lang_en:hover {
 	transition: 0.3s linear; 
 	opacity: .3; 
 }
 
 @media screen and (max-width: 320px) {
-	.header__lang_En {
+	.header__lang_en {
 		max-width: 22px;
 	}
 }

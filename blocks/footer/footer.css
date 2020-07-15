@@ -2,7 +2,7 @@
 @import url(./__link/footer__link.css);
 @import url(./__copyright/footer__copyright.css);
 
-.footer {
+/*.footer {
 	max-width: 1184px;
 	display: flex;
 	justify-content: space-between;
@@ -45,6 +45,21 @@
 		max-width: 186px;
 		margin: 0 118px 24px 16px;
 		display: flex;
+		flex-direction: column;
+	}
+}
+*/
+
+.footer {
+	margin: 0 48px 24px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+@media screen and (max-width: 320px) {
+	.footer {
+		margin: 0 118px 24px 16px;
 		flex-direction: column;
 	}
 }
