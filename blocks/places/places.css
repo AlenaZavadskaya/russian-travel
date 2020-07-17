@@ -1,31 +1,51 @@
-@import url(./place/place.css);
-
 .places {
 	max-width: 984px;
-	margin: 0 auto;
+	width: 100%;
+	margin: 0 auto 16px;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
-	margin-bottom: 8px;
+	box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
 	.places {
-		margin: 0 48px 92px;
+		margin: 0 auto 92px;
 		max-width: 928px;
 	}
 }
 
+@media screen and (max-width: 963px) {
+	.places {
+		margin: 0 auto 90px;
+		max-width: 920px;
+	}
+}
+
+@media screen and (max-width: 830px) {
+	.places {
+		max-width: 769px;
+	}
+}
+
+
 @media screen and (max-width: 768px) {
 	.places {
-		margin: 0 24px 88px;
+		margin: 0 auto 88px;
 		max-width: 720px;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	.places {
+		margin: 0 auto 76px;
+		max-width: 700px;
 	}
 }
 
 @media screen and (max-width: 320px) {
 	.places {
 		margin: 0 0 64px;
-		width: 100%;
+		max-width: 320px;
 	}
 }

@@ -1,9 +1,0 @@
-.place__paragraph {
-	max-width: 484px;
-	width: 100%;
-	margin: 0 0 24px;
-}
-
-.place__paragraph:last-of-type {
-	margin: 0;
-}

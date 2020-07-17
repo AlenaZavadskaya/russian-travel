@@ -7,18 +7,25 @@
 	color: #ffffff;
 	display: inline-block;
 	margin-right: 18px;
+	transition: 0.3s linear;
 }
 
 .footer__link:hover {
-	transition: 0.3s linear;
-	opacity: .3;
+	opacity: .8;
+}
+
+@media screen and (max-width: 478px) {
+	.footer__link {
+		font-size: 20px;
+		line-height: 106%;
+		margin-bottom: 32px;
+		margin-right: 0px;
+	}
 }
 
 @media screen and (max-width: 320px) {
 	.footer__link {
 		font-size: 24px;
 		line-height: 100%;
-		margin-bottom: 32px;
-		margin-right: 0px;
 	}
 }

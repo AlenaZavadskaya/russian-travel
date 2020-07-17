@@ -13,18 +13,23 @@
 	}
 }
 
+@media screen and (max-width: 830px) {
+	.place__article {
+		max-width: 370px;
+		line-height: 165%;
+		font-size: 16px;
+	}
+}
+
 @media screen and (max-width: 768px) {
 	.place__article {
 		max-width: 352px;
 		line-height: 162%;
-		font-size: 16px;
 	}
 }
 
 @media screen and (max-width: 320px) {
 	.place__article {
-		font-size: 16px;
-		line-height: 162%;
 		padding: 0 16px;
 		max-width: 288px;
 	}
