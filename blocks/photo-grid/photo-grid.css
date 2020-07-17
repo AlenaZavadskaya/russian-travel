@@ -7,14 +7,13 @@
 	grid-template-rows: repeat(auto-fill, 213px);
 	grid-gap: 16px;
 	justify-content: center;
-	margin: 0 auto 100px;
+	margin: 0 auto 92px;
 }
 
 @media screen and (max-width: 1024px) {
 	.photo-grid {
 		grid-template-columns: repeat(auto-fill, 300px);
 		grid-template-rows: repeat(auto-fill, 225px);
-		margin: 0 auto 92px;
 	}
 }
 
