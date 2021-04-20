@@ -1,13 +1,27 @@
-Путешествие по России
-https://alenazavadskaya.github.io/russian-travel/index.html
-Сайт о красивейших местах России и путешествиях к ним.
- 
-Для определения структуры и описания содержания веб-страницы использовался HTML. Файловая структура проекта организована по классической БЭМ-технологии Nasted. Общая структура страницы размечена семантическими тегами. 
- 
-Внешний вид веб-контента был описан с помощью средств CSS. Использованы технологии и инструменты, такие как Flexbox и Grid Layout.
+# Лендинг о путешествиях по России :train:
 
-Сайт адаптирован под разрешения:
-320px,
-768px,
-1024px,
-1280px.
+## [Ссылка на сайт](https://alenazavadskaya.github.io/russian-travel/index.html)
+
+### :page_with_curl: Содержание
+- Header
+- Lead
+- Intro
+- Photo grid
+- Places
+- Cover
+- Footer
+
+
+### :rocket: Технологии
+- semantic HTML
+- CSS
+- adaptive layout (320px, 768px, 1024px, 1280px)
+- Flexbox
+- Grid Layout
+- BEM Nasted
+- Figma
+
+
+### :wrench: To do
+- поправить верстку между брэйкпоинтами
+
