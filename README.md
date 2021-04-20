@@ -2,6 +2,8 @@
 
 ## [Ссылка на сайт](https://alenazavadskaya.github.io/russian-travel/index.html)
 
+![](images/main_page.jpg)
+
 ### :page_with_curl: Содержание
 - Header
 - Lead
